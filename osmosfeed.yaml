@@ -1,7 +1,6 @@
 cacheUrl: https://K1ns0.github.io/RSS/cache.json
 sources:
   - href: https://www.leavesongs.com/feed/
-  - href: https://3gstudent.github.io/atom.xml
   - href: https://lucumr.pocoo.org/feed.atom
   - href: http://arthurchiao.art/feed.xml
   - href: http://coding-insecurity.blogspot.com/feeds/posts/default
@@ -12,7 +11,6 @@ sources:
   - href: https://rdist.root.org/feed/
   - href: https://blog.skk.moe/atom.xml
   - href: https://developers.google.com/web/updates/rss.xml
-  - href: https://rsshub.app/juejin/posts/58e4b9b261ff4b006b3227f4
   - href: http://www.kingname.info/atom.xml
   - href: http://jm.taobao.org/atom.xml
   - href: https://blog.attify.com/rss/
@@ -24,33 +22,26 @@ sources:
   - href: https://cardaci.xyz/feed.xml
   - href: https://apr4h.github.io/feed.xml
   - href: http://www.bendawang.site/rss.xml
-  - href: https://tunnelshade.in/feeds/all.atom.xml
   - href: https://starlabs.sg/blog/index.xml
   - href: http://sh3ll.me/atom.xml
   - href: https://www.corelan.be/index.php/feed/
   - href: https://ptr-yudai.hatenablog.com/feed
   - href: https://etenal.me/feed
-  - href: https://firmianay.github.io/pages/feed.xml
   - href: https://webassembly-security.com/feed/
   - href: https://gamozolabs.github.io/feed.xml
   - href: https://www.greyhathacker.net
   - href: http://feeds.feedburner.com/GynvaelColdwindEN
-  - href: https://0x48.pw/rss.xml
   - href: http://ihazomgsecurityskillz.blogspot.com/feeds/posts/default?alt=rss
   - href: https://j00ru.vexillium.org/feed/
   - href: http://www.jianfensec.com/feed/
   - href: https://blog.l4ys.tw/atom.xml
   - href: https://lcamtuf.blogspot.com/feeds/posts/default?alt=rss
   - href: https://lcamtuf.blogspot.com/feeds/posts/default
-  - href: http://www.louys.net.cn/index.php/feed/
   - href: https://maskray.me/blog/atom.xml
-  - href: http://math1as.com/atom.xml
-  - href: https://merrychap.github.io/feed.xml
   - href: http://misty.moe/feed/
   - href: https://mykter.com/feed.xml
   - href: https://netsekure.org/atom.xml
   - href: https://noncombatant.org/feed/
-  - href: http://www.nynaeve.net
   - href: http://p4nda.top/atom.xml
   - href: https://www.povcfe.site/index.xml
   - href: https://pr0cf5.github.io/feed.xml
