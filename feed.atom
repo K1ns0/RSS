@@ -1,515 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-09-08T07:07:55.592Z</id>
+    <id>https://K1ns0.github.io/RSS/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-08T07:07:55.592Z</updated>
+    <updated>2021-09-08T07:11:29.284Z</updated>
     <generator>osmosfeed 1.11.0</generator>
-    <link rel="alternate" href="index.html"/>
+    <link rel="alternate" href="https://K1ns0.github.io/RSS/index.html"/>
+    <link rel="self" href="https://K1ns0.github.io/RSS/feed.atom"/>
     <entry>
-        <title type="html"><![CDATA[React Tutorial – How to Build the 2048 Game in React]]></title>
-        <id>611827fe72231b077cdb021c</id>
-        <link href="https://www.freecodecamp.org/news/how-to-make-2048-game-in-react/"/>
-        <updated>2021-09-08T01:38:41.000Z</updated>
-        <summary type="html"><![CDATA[Today you will learn how to build your own clone of the 2048 game in React.  What makes this article unique is that we will focus on creating delightful animations. Aside from React, we will use TypeScript and we'll make some CSS transitions using LESS.  We are only going to]]></summary>
+        <title type="html"><![CDATA[JavaScript逆向调试记 —— defcon threefactooorx writeup]]></title>
+        <id>https://www.leavesongs.com/PENETRATION/defcon-29-threefactooorx-writeup.html</id>
+        <link href="https://www.leavesongs.com/PENETRATION/defcon-29-threefactooorx-writeup.html"/>
+        <updated>2021-09-08T07:11:29.253Z</updated>
+        <summary type="html"><![CDATA[defcon 29就这一道Web题目，说实话也没学到啥东西，唯一学到的就是勿钻牛角尖，及时调整策略。此题严格]]></summary>
         <author>
-            <name>freeCodeCamp.org</name>
+            <name>phithon</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Span HTML – How to Use the Span Tag with CSS]]></title>
-        <id>61372fd1d6679a07b7d43e77</id>
-        <link href="https://www.freecodecamp.org/news/span-html-how-to-use-the-span-tag-with-css/"/>
-        <updated>2021-09-08T01:18:28.000Z</updated>
-        <summary type="html"><![CDATA[You can use the HTML span tag as a container to group inline elements together so you can style or manipulate them with JavaScript.  In this article, I will show you how to use the span tag to make a certain part of your content distinct from the rest. Then]]></summary>
+        <title type="html"><![CDATA[手工编写简化版CommonsCollections6，带你实现Java8全版本反序列化利用]]></title>
+        <id>https://www.leavesongs.com/PENETRATION/diy-commons-collections6-poc.html</id>
+        <link href="https://www.leavesongs.com/PENETRATION/diy-commons-collections6-poc.html"/>
+        <updated>2021-09-08T07:11:27.106Z</updated>
+        <summary type="html"><![CDATA[这是代码审计知识星球中《Java安全漫谈》的第十二篇文章。]]></summary>
         <author>
-            <name>freeCodeCamp.org</name>
+            <name>phithon</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[What is a Function? JavaScript Function Examples]]></title>
-        <id>6132237ad6679a07b7d418ca</id>
-        <link href="https://www.freecodecamp.org/news/what-is-a-function-javascript-function-examples/"/>
-        <updated>2021-09-07T23:46:55.000Z</updated>
-        <summary type="html"><![CDATA[Functions are one of the main parts of computer programs.  They are widely used and are one of JavaScript's fundamental building blocks.  In this article, we'll go over the definition of functions and why they are so important. I'll also show you how to get started writing functions in JavaScript.]]></summary>
+        <title type="html"><![CDATA[宝塔面板phpMyAdmin未授权访问漏洞是个低级错误吗？]]></title>
+        <id>https://www.leavesongs.com/PHP/baota-phpmyadmin-unauthentication-analysis.html</id>
+        <link href="https://www.leavesongs.com/PHP/baota-phpmyadmin-unauthentication-analysis.html"/>
+        <updated>2021-09-08T07:11:10.944Z</updated>
+        <summary type="html"><![CDATA[本文2020年8月24日发表于代码审计公众号
+周日晚，某群里突然发布了一则消息，宝塔面板的phpmyadmin存在未授权访问漏洞的紧急漏洞预警，并给出了一大批存在漏洞的URL：
+
+随便点开其中一个，赫然就是一个大大的phpmyadmin后台管理页面，无需任何认证与登录。当然，随后各种神图神事也都刷爆了社交网络，作为一个冷静安全研究者，我对此当然是一笑置之，但是这个漏洞的原因我还是颇感兴趣的，所]]></summary>
         <author>
-            <name>freeCodeCamp.org</name>
+            <name>phithon</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Python String Format – Python S Print Format Example]]></title>
-        <id>612204093bccf807612a575a</id>
-        <link href="https://www.freecodecamp.org/news/python-string-format-python-s-print-format-example/"/>
-        <updated>2021-09-07T23:20:34.000Z</updated>
-        <summary type="html"><![CDATA[In Python, you have a few options to format your strings. In this article, I will go over str.format(), formatted string literals, and template strings.  But first, let's take a look at what is considered to be the "old way" of formatting strings.  What is % string formatting in Python?]]></summary>
+        <title type="html"><![CDATA[Django中与时区相关的安全问题]]></title>
+        <id>https://www.leavesongs.com/PYTHON/django-timezone-detail.html</id>
+        <link href="https://www.leavesongs.com/PYTHON/django-timezone-detail.html"/>
+        <updated>2021-09-08T07:11:10.877Z</updated>
+        <summary type="html"><![CDATA[在开发国际化网站的时候，难免会与时区打交道，通用CMS更是如此，毕竟其潜在用户可能是来自于全球各地的。Django在时区这个问题上下了不少功夫，但是很多资深的开发者都有可能尚未完全屡清楚Django中各种时间的实际意义和使用方法，导致写出错误的代码；作为安全研究人员，时区问题也可能和一些安全问题挂钩，比如优惠券的过期时间、订单的下单与取消时间等，如果没有考虑时区问题，有可能将导致一些逻辑漏洞。
+本]]></summary>
         <author>
-            <name>freeCodeCamp.org</name>
+            <name>phithon</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Can we have custom media queries, please?]]></title>
-        <id>https://css-tricks.com/?p=351276</id>
-        <link href="https://www.stefanjudis.com/notes/can-we-have-custom-media-queries-please/"/>
-        <updated>2021-09-07T22:17:55.000Z</updated>
-        <summary type="html"><![CDATA[Stefan Judis notes that there is a spec for custom media queries, but seemingly no momentum on it at the moment. That lack of movement is unfortunate, as it’s almost guaranteed front-end developers all over would start using it as …
-The post Can we have custom media queries, please? appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <title type="html"><![CDATA[BCEL ClassLoader去哪了]]></title>
+        <id>https://www.leavesongs.com/PENETRATION/where-is-bcel-classloader.html</id>
+        <link href="https://www.leavesongs.com/PENETRATION/where-is-bcel-classloader.html"/>
+        <updated>2021-09-08T07:11:10.662Z</updated>
+        <summary type="html"><![CDATA[com.sun.org.apache.bcel.internal.util.ClassLoader是常常在构造漏洞利用POC时用到的类。但是，我前几天在写《Java安全漫谈》的时候，偶然发现我环境中的com.sun.org.apache.bcel.internal.util.ClassLoader类找不到了，本文就带大家来找找BCEL ClassLoader。
+0x01 BCEL从哪里来
+首先，B]]></summary>
         <author>
-            <name>Chris Coyier</name>
+            <name>phithon</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[JavaScript Array.some() Tutorial – How to Iterate Through Elements in an Array]]></title>
-        <id>61320c11d6679a07b7d41704</id>
-        <link href="https://www.freecodecamp.org/news/javascript-array-some-tutorial-how-to-iterate-through-elements-in-an-array/"/>
-        <updated>2021-09-07T22:14:16.000Z</updated>
-        <summary type="html"><![CDATA[When you're working with an array in JavaScript, sometimes you might just want to check if at least one element inside that array passes a test. And you might not care about any other subsequent matches.  In such a case, you should use the some() JavaScript method. So let's see]]></summary>
+        <title type="html"><![CDATA[CVE-2021-21287: 容器与云的碰撞——一次对MinIO的测试]]></title>
+        <id>https://www.leavesongs.com/PENETRATION/the-collision-of-containers-and-the-cloud-pentesting-a-MinIO.html</id>
+        <link href="https://www.leavesongs.com/PENETRATION/the-collision-of-containers-and-the-cloud-pentesting-a-MinIO.html"/>
+        <updated>2021-09-08T07:11:10.646Z</updated>
+        <summary type="html"><![CDATA[事先声明：本次测试过程完全处于本地或授权环境，仅供学习与参考，不存在未授权测试过程。本文提到的漏洞《MinIO未授权SSRF漏洞（CVE-2021-21287）》已经修复，也请读者勿使用该漏洞进行未授权测试，否则作者不承担任何责任
+(English edition)
+随着工作和生活中的一些环境逐渐往云端迁移，对象存储的需求也逐渐多了起来，MinIO就是一款支持部署在私有云的开源对象存储系统。M]]></summary>
         <author>
-            <name>freeCodeCamp.org</name>
+            <name>phithon</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[HTML Tables – Table Tutorial with Example Code]]></title>
-        <id>6114c91072231b077cdae3f6</id>
-        <link href="https://www.freecodecamp.org/news/html-tables-table-tutorial-with-css-example-code/"/>
-        <updated>2021-09-07T21:17:18.000Z</updated>
-        <summary type="html"><![CDATA[When you're building a project that needs to represent data visually, you will need a good way to display the information so it's easy to read and understand.  Now, depending on the type of data, you can select between different representation methods using HTML elements.  In most cases, tables are]]></summary>
+        <title type="html"><![CDATA[一次对 Tui Editor XSS 的挖掘与分析]]></title>
+        <id>https://www.leavesongs.com/PENETRATION/a-tour-of-tui-editor-xss.html</id>
+        <link href="https://www.leavesongs.com/PENETRATION/a-tour-of-tui-editor-xss.html"/>
+        <updated>2021-09-08T07:11:10.437Z</updated>
+        <summary type="html"><![CDATA[TOAST Tui Editor是一款富文本Markdown编辑器，用于给HTML表单提供Markdown和富文本编写支持。最近我们在工作中需要使用到它，相比于其他一些Markdown编辑器，它更新迭代较快，功能也比较强大。另外，它不但提供编辑器功能，也提供了渲染功能（Viewer），也就是说编辑和显示都可以使用Tui Editor搞定。
+Tui Editor的Viewer功能使用方法很简单：
+i]]></summary>
         <author>
-            <name>freeCodeCamp.org</name>
+            <name>phithon</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Angular *ngFor and *ngIf Directives Explained for Beginners]]></title>
-        <id>61330342d6679a07b7d41de1</id>
-        <link href="https://www.freecodecamp.org/news/angular-ngfor-and-ngif-explained/"/>
-        <updated>2021-09-07T20:45:34.000Z</updated>
-        <summary type="html"><![CDATA[*ngIf and *ngFor can help you keep your Angular code clean, simple, and effective. So, let's learn what *ngFor and *ngIf are all about. What is *ngFor?Let's talk about *ngFor first. You use the *ngFor directive to traverse over an array object and display the data in the UI.]]></summary>
+        <title type="html"><![CDATA[有安全研究者混入了PHP 8.0开发组！]]></title>
+        <id>https://www.leavesongs.com/PHP/php-8-0-release.html</id>
+        <link href="https://www.leavesongs.com/PHP/php-8-0-release.html"/>
+        <updated>2021-09-08T07:11:10.408Z</updated>
+        <summary type="html"><![CDATA[本文首发在我的『代码审计』公众号，欢迎关注
+经历了近半年的alpha版本测试后，PHP在2020年11月26号正式发布了8.0版本：https://www.php.net/releases/8.0/en.php
+今天我们就来浏览一下PHP 8.0中出现的主要特性，以及它给我们安全研究人员带来的挑战。
+命名参数 Named Arguments
+PHP 8 以前，如果我们需要给一个函数的第N个参数]]></summary>
         <author>
-            <name>freeCodeCamp.org</name>
+            <name>phithon</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to Test Serverless Applications in AWS]]></title>
-        <id>61327c7fd6679a07b7d41b17</id>
-        <link href="https://www.freecodecamp.org/news/how-to-test-serverless-applications-in-aws/"/>
-        <updated>2021-09-07T18:33:36.000Z</updated>
-        <summary type="html"><![CDATA[Over the past few years, serverless architecture has become very popular. This is largely because it has removed the burden of managing infrastructure, such as servers, storage, databases, scalability, and so on.  When people first started using the term "serverless," it created some confusion in the industry. Some]]></summary>
+        <title type="html"><![CDATA[CVE-2021-39165: 从一个Laravel SQL注入漏洞开始的Bug Bounty之旅]]></title>
+        <id>https://www.leavesongs.com/PENETRATION/cachet-from-laravel-sqli-to-bug-bounty.html</id>
+        <link href="https://www.leavesongs.com/PENETRATION/cachet-from-laravel-sqli-to-bug-bounty.html"/>
+        <updated>2021-09-08T07:11:10.280Z</updated>
+        <summary type="html"><![CDATA[事先声明：本次测试过程完全处于本地或授权环境，仅供学习与参考，不存在未授权测试过程。本文提到的漏洞《Cachet SQL注入漏洞（CVE-2021-39165）》已经修复，也请读者勿使用该漏洞进行未授权测试，否则作者不承担任何责任
+0x01 故事的起源
+一个百无聊赖的周日晚上，我在知识星球闲逛，发现有一个匿名用户一连向我提出了两个问题：
+
+本来不是很想回答这两个问题，一是感觉比较基础，二是现在]]></summary>
         <author>
-            <name>freeCodeCamp.org</name>
+            <name>phithon</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Fire SVG animations (SMIL) when the SVG is visible]]></title>
-        <id>https://css-tricks.com/?p=351146</id>
-        <link href="https://www.zachleat.com/web/svg-animate/"/>
-        <updated>2021-09-07T17:54:12.000Z</updated>
-        <summary type="html"><![CDATA[When requirements read “when visible” your brain should go straight to IntersectionObserver. That’s exactly what Zach is doing here to kick off an animation when it scrolls into view.
-Except this animation is an SVG SMIL animation: an <animate>…
-The post Fire SVG animations (SMIL) when the SVG is visible appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <title type="html"><![CDATA[CommonsBeanutils与无commons-collections的Shiro反序列化利用]]></title>
+        <id>https://www.leavesongs.com/PENETRATION/commons-beanutils-without-commons-collections.html</id>
+        <link href="https://www.leavesongs.com/PENETRATION/commons-beanutils-without-commons-collections.html"/>
+        <updated>2021-09-08T07:11:10.208Z</updated>
+        <summary type="html"><![CDATA[这是代码审计知识星球中Java安全漫谈的第十七篇文章。完整文章列表与相关代码请参考：https://github.com/phith0n/JavaThings
+上一篇文章里，我们认识了java.util.PriorityQueue，它在Java中是一个优先队列，队列中每一个元素有自己的优先级。在反序列化这个对象时，为了保证队列顺序，会进行重排序的操作，而排序就涉及到大小比较，进而执行java.]]></summary>
         <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building Your Own Subscription Newsletter]]></title>
-        <id>https://css-tricks.com/?p=351346</id>
-        <link href="https://css-tricks.com/building-your-own-subscription-newsletter/"/>
-        <updated>2021-09-07T17:52:19.000Z</updated>
-        <summary type="html"><![CDATA[(This is a sponsored post.)
-I did a sponsored video the other week explaining how to build a paid subscription newsletter using WordPress (we did it on WordPress.com but it could be hosted anywhere), MailPoet (a plugin to visually …
-The post Building Your Own Subscription Newsletter appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[World Translation Month – Help Us Translate freeCodeCamp into Your Native Language]]></title>
-        <id>61350ccad6679a07b7d4314c</id>
-        <link href="https://www.freecodecamp.org/news/world-translation-month-event/"/>
-        <updated>2021-09-07T17:37:37.000Z</updated>
-        <summary type="html"><![CDATA[We believe that everyone deserves to have free programming education in their own native language. So we are expanding International Translation Day (September 30th) into a full month-long effort. Over the past few years, hundreds of volunteer contributors have worked to translate freeCodeCamp into major world languages. In February, Quincy]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Python Create File – How to Append and Write to a Text File]]></title>
-        <id>61307fb1d6679a07b7d4061e</id>
-        <link href="https://www.freecodecamp.org/news/python-create-file-how-to-append-and-write-to-a-text-file/"/>
-        <updated>2021-09-07T16:44:25.000Z</updated>
-        <summary type="html"><![CDATA[In coding, files are used to store data. Then you can easily access that data at any point.  Reading, writing, and editing files in Python is a common task, since the language provides us with built-in functions that allow us to do so.  In this article, I'll create a simple]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Firefox’s `bolder` Default is a Problem for Variable Fonts]]></title>
-        <id>https://css-tricks.com/?p=351017</id>
-        <link href="https://css-tricks.com/firefoxs-bolder-default-is-a-problem-for-variable-fonts/"/>
-        <updated>2021-09-07T14:41:57.000Z</updated>
-        <summary type="html"><![CDATA[Variable fonts make it easy to create a large set of font styles from a single font file. Unfortunately, the default rendering of the <b> and <strong> elements in browsers today is not very compatible with the wide range of …
-The post Firefox’s `bolder` Default is a Problem for Variable Fonts appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Šime Vidas</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What’s New With DevTools: Cross-Browser Edition]]></title>
-        <id>https://smashingmagazine.com/2021/09/devtools-cross-browser-edition/</id>
-        <link href="https://smashingmagazine.com/2021/09/devtools-cross-browser-edition/"/>
-        <updated>2021-09-07T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Learn what’s new with developer tools in Firefox, Edge, Chrome and Safari. Discover new and powerful features that will help you be more comfortable and productive when testing and debugging across browsers.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Patrick Brosset)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Early Days for CSS Scoping]]></title>
-        <id>https://css-tricks.com/?p=351402</id>
-        <link href="https://css-tricks.com/early-days-for-css-scoping/"/>
-        <updated>2021-09-06T18:47:19.000Z</updated>
-        <summary type="html"><![CDATA[There is a working draft spec for CSS scoping now, a newsworthy event for the W3C. Other than a weird period where <style scoped> shipped and then was subsequently removed from the spec (and browsers), this is the furthest a …
-The post Early Days for CSS Scoping appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HTTP/3: Practical Deployment Options (Part 3)]]></title>
-        <id>https://smashingmagazine.com/2021/09/http3-practical-deployment-options-part3/</id>
-        <link href="https://smashingmagazine.com/2021/09/http3-practical-deployment-options-part3/"/>
-        <updated>2021-09-06T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[After almost five years in development, the new HTTP/3 protocol is nearing its final form. Let’s take a close look at the challenges involved in deploying and testing HTTP/3, and how and if you should change your websites and resources as well.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Robin Marx)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS Lambdas: Easy, Easier, Easiest]]></title>
-        <id>https://css-tricks.com/?p=350649</id>
-        <link href="https://joeyanuff-33180.medium.com/aws-lambdas-easy-easier-easiest-823e71c02bd9"/>
-        <updated>2021-09-03T22:16:47.000Z</updated>
-        <summary type="html"><![CDATA[I’d say cloud functions are one of the most transformative technologies in the last bunch of years. They are (usually) cheap, scale well, secure in their inherent isolation, and often written in JavaScript—comfortable territory for front-end developers. Nearly every cloud …
-The post AWS Lambdas: Easy, Easier, Easiest appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Supercharging Built-In Elements With Web Components “is” Easier Than You Think]]></title>
-        <id>https://css-tricks.com/?p=350889</id>
-        <link href="https://css-tricks.com/supercharging-built-in-elements-with-web-components-is-easier-than-you-think/"/>
-        <updated>2021-09-03T14:21:38.000Z</updated>
-        <summary type="html"><![CDATA[We’ve already discussed how creating web components is easier than you think, but there’s another aspect of the specification that we haven’t discussed yet and it’s a way to customize (nay, supercharge) a built-in element. It’s similar to …
-The post Supercharging Built-In Elements With Web Components “is” Easier Than You Think appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>John Rhea</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reducing Carbon Emissions On The Web]]></title>
-        <id>https://smashingmagazine.com/2021/09/reducing-carbon-emissions-on-web/</id>
-        <link href="https://smashingmagazine.com/2021/09/reducing-carbon-emissions-on-web/"/>
-        <updated>2021-09-03T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Websites, unfortunately, aren’t as environmentally friendly as we might like them to be. This article contains some thoughts and experiences from trying to clean them up.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Berwyn Powell)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Links on Performance IV]]></title>
-        <id>https://css-tricks.com/?p=350934</id>
-        <link href="https://css-tricks.com/links-on-performance-iv/"/>
-        <updated>2021-09-02T22:28:51.000Z</updated>
-        <summary type="html"><![CDATA[HTTP Caching is a Superpower — Hugh Haworth covers how the Cache-Control header is an awfully potent ingredient in web performance. I mis-read the title at first and was waiting to read about HTML caching. Hugh covers it a bit 
-…
-The post Links on Performance IV appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I completely ignored the front-end development scene for 6 months. It was fine.]]></title>
-        <id>https://css-tricks.com/?p=350723</id>
-        <link href="https://rachsmith.com/i-completely-ignored-the-front-end-development-scene-for-6-months-it-was-fine/"/>
-        <updated>2021-09-02T22:26:36.000Z</updated>
-        <summary type="html"><![CDATA[Have you ever fretted that front-end web development moves so fast that if you stepped away for a while, you’d be lost coming back? Rachel Smith has:
-The hectic pace of needing to learn one thing after the next 
-…
-The post I completely ignored the front-end development scene for 6 months. It was fine. appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[If I work really hard on my Open Graph images, people will share my blog posts.]]></title>
-        <id>https://css-tricks.com/?p=350830</id>
-        <link href="https://www.zachleat.com/web/automatic-opengraph/"/>
-        <updated>2021-09-02T14:30:55.000Z</updated>
-        <summary type="html"><![CDATA[Zach did that thing where each of his blog posts has a special URL with the design of social image card that is screenshat by a headless browser (like Puppeteer) and used as a true meta Open Graph image, meaning …
-The post If I work really hard on my Open Graph images, people will share my blog posts. appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Interactive Learning Tools For Front-End Developers]]></title>
-        <id>https://smashingmagazine.com/2021/09/interactive-learning-tools-front-end-developers/</id>
-        <link href="https://smashingmagazine.com/2021/09/interactive-learning-tools-front-end-developers/"/>
-        <updated>2021-09-02T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Interactive coding tools to help you learn CSS, JavaScript, SQL, React, Vim, regular expressions and Jamstack.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Louis Lazaris)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Accessing Your Data With Netlify Functions and React]]></title>
-        <id>https://css-tricks.com/?p=351172</id>
-        <link href="https://css-tricks.com/accessing-data-netlify-functions-react/"/>
-        <updated>2021-09-02T00:28:22.000Z</updated>
-        <summary type="html"><![CDATA[(This is a sponsored post.)
-Static site generators are popular for their speed, security, and user experience. However, sometimes your application needs data that is not available when the site is built. React is a library for building user …
-The post Accessing Your Data With Netlify Functions and React appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Tharaka Romesh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What I Wish I Knew About CSS When Starting Out As A Front-Ender]]></title>
-        <id>https://css-tricks.com/?p=350752</id>
-        <link href="https://engineering.kablamo.com.au/posts/2021/my-first-css"/>
-        <updated>2021-09-01T23:25:45.000Z</updated>
-        <summary type="html"><![CDATA[Nathan Hardy shares when things “clicked”:
-Reflecting back on this time, I think there are a few key concepts that were vital to things finally all making sense and fitting together. These were:
-• The Box Model (e.g. box-sizing, height, width, margin, padding)
-• Layout 
-…
-The post What I Wish I Knew About CSS When Starting Out As A Front-Ender appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Some Typography Links VII]]></title>
-        <id>https://css-tricks.com/?p=350569</id>
-        <link href="https://css-tricks.com/some-typography-links-vii/"/>
-        <updated>2021-09-01T14:37:38.000Z</updated>
-        <summary type="html"><![CDATA[All-things-typography, from a hard-edged monospaced variable font to fonts in the "Twilight Zone" ... and much, much more.
-The post Some Typography Links VII appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Deep Dive Into The Wonderful World Of SVG Displacement Filtering]]></title>
-        <id>https://smashingmagazine.com/2021/09/deep-dive-wonderful-world-svg-displacement-filtering/</id>
-        <link href="https://smashingmagazine.com/2021/09/deep-dive-wonderful-world-svg-displacement-filtering/"/>
-        <updated>2021-09-01T10:30:00.000Z</updated>
-        <summary type="html"><![CDATA[What exactly is a displacement filter? In this article, Dirk Weber explains the SVG `feDisplacementMap` filter primitive with a good number of examples to demonstrate the concept of animated displacement maps.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Dirk Weber)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[You want enabling CSS selectors, not disabling ones]]></title>
-        <id>https://css-tricks.com/?p=350788</id>
-        <link href="https://www.silvestar.codes/articles/you-want-a-single-enabling-selector-not-the-one-that-disables-the-rule-of-the-previous-one/"/>
-        <updated>2021-08-31T20:17:25.000Z</updated>
-        <summary type="html"><![CDATA[I think this is good advice from Silvestar Bistrović:
-An enabling selector is what I call a selector that does a job without disabling the particular rule.
-The classic example is applying margin to everything, only to have to remove …
-The post You want enabling CSS selectors, not disabling ones appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Application-Specific Links]]></title>
-        <id>https://css-tricks.com/?p=350690</id>
-        <link href="https://css-tricks.com/application-specific-links/"/>
-        <updated>2021-08-31T14:30:21.000Z</updated>
-        <summary type="html"><![CDATA[You know like https:? That’s a URL Scheme. You’re probably familiar with the concept, thanks to others that come up in front-end development, like mailto:. You can actually make your own, which is pretty cool. There …
-The post Application-Specific Links appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[State Management In Next.js]]></title>
-        <id>https://smashingmagazine.com/2021/08/state-management-nextjs/</id>
-        <link href="https://smashingmagazine.com/2021/08/state-management-nextjs/"/>
-        <updated>2021-08-31T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[By combining some React APIs, we can accurately manage “simple” states. With Next.js though, we can quickly find situations where we need to accommodate many other requirements. Let’s have a look at some patterns to accomplish all that.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Átila Fassina)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stories Of September (2021 Desktop Wallpapers Edition)]]></title>
-        <id>https://smashingmagazine.com/2021/08/desktop-wallpaper-calendars-september-2021/</id>
-        <link href="https://smashingmagazine.com/2021/08/desktop-wallpaper-calendars-september-2021/"/>
-        <updated>2021-08-31T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[New month, new wallpapers! In this post, you’ll find inspiring wallpaper designs for September 2021. They were created with love by artists and designers from across the globe and are available with and without a calendar. Enjoy!]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Cosima Mielke)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Refactoring CSS: Optimizing Size And Performance (Part 3)]]></title>
-        <id>https://smashingmagazine.com/2021/08/refactoring-css-optimizing-size-performance-part3/</id>
-        <link href="https://smashingmagazine.com/2021/08/refactoring-css-optimizing-size-performance-part3/"/>
-        <updated>2021-08-30T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[There are many CSS optimization techniques to tackle potential file size and performance issues. Let’s take a look at some of them. After all, if deploying the refactored codebase causes loading or performance issues, it will result in less traffic and revenue, which might leave the management and project managers dissatisfied.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Adrian Bece)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Compound Components In React]]></title>
-        <id>https://smashingmagazine.com/2021/08/compound-components-react/</id>
-        <link href="https://smashingmagazine.com/2021/08/compound-components-react/"/>
-        <updated>2021-08-27T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Compound components help developers build more expressive and flexible APIs to share state and logic within components. This tutorial explains how this can be achieved with the help of using the Context API and React to build components by using this advanced pattern.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Ichoku Chinonso)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pushing Back Against Privacy Infringement On The Web]]></title>
-        <id>https://smashingmagazine.com/2021/08/against-privacy-infringement-web/</id>
-        <link href="https://smashingmagazine.com/2021/08/against-privacy-infringement-web/"/>
-        <updated>2021-08-26T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Web is still wrestling with issues we take for granted offline, privacy chief among them. These are steps The New York Times took to protect users’ data, and how you can too.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Robin Berjon)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Creating A Public/Private Multi-Monorepo For PHP Projects]]></title>
-        <id>https://smashingmagazine.com/2021/08/public-private-multi-monorepo-php-projects/</id>
-        <link href="https://smashingmagazine.com/2021/08/public-private-multi-monorepo-php-projects/"/>
-        <updated>2021-08-25T07:10:00.000Z</updated>
-        <summary type="html"><![CDATA[In this article, Leonardo explains how to use a "multi-monorepo" approach for making the development experience faster, yet keeping your PHP packages private. This solution can be especially beneficial for PRO plugin creators.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Leonardo Losoviz)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How To Automate Documentation Workflow For Developers]]></title>
-        <id>https://smashingmagazine.com/2021/08/automate-documentation-workflow-for-developers/</id>
-        <link href="https://smashingmagazine.com/2021/08/automate-documentation-workflow-for-developers/"/>
-        <updated>2021-08-24T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this article, you’ll learn how to save hours of tedious work of writing, updating, and correcting technical documentation. In this article, you will learn how to automate your documentation workflow with Vale and GitHub Actions.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Portia Burton)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HTTP/3: Performance Improvements (Part 2)]]></title>
-        <id>https://smashingmagazine.com/2021/08/http3-performance-improvements-part2/</id>
-        <link href="https://smashingmagazine.com/2021/08/http3-performance-improvements-part2/"/>
-        <updated>2021-08-23T06:20:00.000Z</updated>
-        <summary type="html"><![CDATA[After almost five years in development, the new HTTP/3 protocol is nearing its final form. Let’s take a close look at the performance improvements of HTTP/3, congestion control, head-of-line-blocking, and 0-RTT connection set-up.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Robin Marx)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jamstack CMS: The Past, The Present and The Future]]></title>
-        <id>https://smashingmagazine.com/2021/08/history-future-jamstack-cms/</id>
-        <link href="https://smashingmagazine.com/2021/08/history-future-jamstack-cms/"/>
-        <updated>2021-08-20T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The story of Jamstack CMSs goes all the way back to the 90s. In this article, we take a trip down memory lane to see how we got to the modern Jamstack CMSs we have today, and where they’re heading in the next decade.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Mike Neumegen)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How To Build An Ethical User Research Practice At Any Organization]]></title>
-        <id>https://smashingmagazine.com/2021/08/ethical-user-research-practice/</id>
-        <link href="https://smashingmagazine.com/2021/08/ethical-user-research-practice/"/>
-        <updated>2021-08-19T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Through a simple step-by-step approach, you can build an ethical practice within your organization that will ensure you’re respecting the dignity and welfare of your research participants.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Devin Harold)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Creating An Interactive Gantt Chart Component With Vanilla JavaScript]]></title>
-        <id>https://smashingmagazine.com/2021/08/interactive-gantt-chart-component-vanilla-javascript/</id>
-        <link href="https://smashingmagazine.com/2021/08/interactive-gantt-chart-component-vanilla-javascript/"/>
-        <updated>2021-08-18T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this article, we will code a Gantt chart as a reusable Web component. We will focus on the architecture of the component, rendering the calendar with CSS Grid and managing the state of the draggable tasks with JavaScript Proxy Objects.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Anna Prenzel)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Free Open-Source Icons]]></title>
-        <id>https://smashingmagazine.com/2021/08/open-source-icons/</id>
-        <link href="https://smashingmagazine.com/2021/08/open-source-icons/"/>
-        <updated>2021-08-17T07:25:00.000Z</updated>
-        <summary type="html"><![CDATA[Your project is on a tight budget? We’ve collected some wonderful, free icons and goodies that we’ve discovered lately and that are bound to give your design the finishing touch. We’ve also just recently covered [Figma plugins](https://www.smashingmagazine.com/2021/08/figma-tools-plugins-resources/), [SVG generators](https://www.smashingmagazine.com/2021/03/svg-generators/), [accessible front-end components](https://www.smashingmagazine.com/2021/03/complete-guide-accessible-front-end-components/) and [front-end boilerplates](https://www.smashingmagazine.com/2021/06/useful-frontend-boilerplates-starter-kits/) — you might find them useful, too.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Cosima Mielke)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How To Develop Your Business’ Technology Roadmap]]></title>
-        <id>https://smashingmagazine.com/2021/08/develop-business-technology-roadmap/</id>
-        <link href="https://smashingmagazine.com/2021/08/develop-business-technology-roadmap/"/>
-        <updated>2021-08-16T06:55:00.000Z</updated>
-        <summary type="html"><![CDATA[Software development without a roadmap is akin to driving off a cliff — an undertaking that seriously jeopardizes your product’s life. Here’s how to develop a business technology roadmap that ensures your project safely reaches its final destination.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Cache Merril)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Useful Figma Plugins And Tools]]></title>
-        <id>https://smashingmagazine.com/2021/08/Figma-tools-plugins-resources/</id>
-        <link href="https://smashingmagazine.com/2021/08/Figma-tools-plugins-resources/"/>
-        <updated>2021-08-12T13:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Useful Figma plugins that will help you fix all the little slowdowns and boost your productivity. From color management and image assets to SVG shapes and animation. That’s our new guide to Figma.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Janet John)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Smashing Workshops on Front-End & Design]]></title>
-        <id>https://smashingmagazine.com/2021/08/new-smashing-online-workshops-aug-oct-2021/</id>
-        <link href="https://smashingmagazine.com/2021/08/new-smashing-online-workshops-aug-oct-2021/"/>
-        <updated>2021-08-11T13:25:00.000Z</updated>
-        <summary type="html"><![CDATA[How do we build and establish a successful, bulletproof design system? What’s the state of HTML Email? And what are new, smart interface design patterns we could use? Let’s find out. With our [brand new online workshops](https://smashingconf.com/online-workshops/) on front-end & design — to help us all boost skills online.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Iris Lješnjanin)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Handling Mounting And Unmounting Of Navigation Routes In React Native]]></title>
-        <id>https://smashingmagazine.com/2021/08/mounting-unmounting-navigation-routes-react-native/</id>
-        <link href="https://smashingmagazine.com/2021/08/mounting-unmounting-navigation-routes-react-native/"/>
-        <updated>2021-08-11T11:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Often you need two different sets of navigation stacks for pre and post user authentication. Usually, to see more content, you have to be authenticated in some way. Let’s look at how to mount and unmount navigation stack based on a met condition in React Native.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Daniel Don)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cookieless Alternative To Embed HTML, CSS And JS Code Snippets]]></title>
-        <id>https://smashingmagazine.com/2021/08/cookieless-alternative-embed-html-css-js-code-examples/</id>
-        <link href="https://smashingmagazine.com/2021/08/cookieless-alternative-embed-html-css-js-code-examples/"/>
-        <updated>2021-08-10T11:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Embedding code examples with third-party scripts often leads to tracking or cookies. We always wanted to have a simple website with a good UX, so setting cookies for no reason wasn’t an option for us. Now, with Indiepen, we are proud to introduce a privacy-friendly alternative.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Henrik Fricke)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Smashing Podcast Episode 41 With Eva PenzeyMoog: Designing For Safety]]></title>
-        <id>https://smashingmagazine.com/2021/08/smashing-podcast-episode-41/</id>
-        <link href="https://smashingmagazine.com/2021/08/smashing-podcast-episode-41/"/>
-        <updated>2021-08-10T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this episode, we’re talking about designing for safety. What does it mean to consider vulnerable users in our designs? Drew McLellan talks to expert Eva PenzeyMoog to find out.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Drew McLellan)</name>
+            <name>phithon</name>
         </author>
     </entry>
 </feed>
