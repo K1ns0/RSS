@@ -96,6 +96,12 @@
           "title": "CommonsBeanutils与无commons-collections的Shiro反序列化利用"
         }
       ]
+    },
+    {
+      "title": "3gstudent-Blog",
+      "feedUrl": "https://3gstudent.github.io/atom.xml",
+      "siteUrl": "https://3gstudent.github.io",
+      "articles": []
     }
   ],
   "cliVersion": "1.11.0"
