@@ -2,52 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://K1ns0.github.io/RSS/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-13T00:46:03.044Z</updated>
+    <updated>2021-09-13T05:35:57.993Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://K1ns0.github.io/RSS/index.html"/>
     <link rel="self" href="https://K1ns0.github.io/RSS/feed.atom"/>
-    <entry>
-        <title type="html"><![CDATA[[译] Control Group v2（cgroupv2 权威指南）（KernelDoc, 2021）]]></title>
-        <id>https://arthurchiao.github.io/blog/cgroupv2-zh/</id>
-        <link href="https://arthurchiao.github.io/blog/cgroupv2-zh/"/>
-        <updated>2021-09-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[译者序
-本文翻译自 2021 年 Linux 5.10 内核文档：
-Control Group v2，
-它是描述 cgroupv2 用户空间侧的设计、接口和规范的权威文档。
-原文非常全面详细，本文只翻译了目前感兴趣的部分，其他部分保留原文。
-另外，由于技术规范的描述比较抽象，因此翻译时加了一些系统测试输出、内核代码片段和
-链接，便于更好理解。
-由于译者水平有限，本文不免存在遗漏或错误之处。如有疑问，请查阅原文。
-以下是译文。
-译者序
-1 引言    
-1.1 术语
-1.2 cgroup 是什么？        
-1.2.1 cgroup 组成部分
-1.2.2 进程/线程与 cgroup 关系
-1.2.3 控制器
-2 基础操作    
-2.1 挂载（mounting）        
-2.1.1 控制器与 v1/v2 绑定关系
-2.1.2 示例：ubuntu 20.04 同时挂载 cgroupv1/cgroupv2（译注）
-2.1.3 控制器在 v1 和 v2 之间切换
-2.1.4 cgroupv2 mount 选项
-2.2 组织（organizing）进程和线程        
-2.2.1 进程：创建/删除/移动/查看 cgroup
-2.2.2 线程            
-将 cgroup 改成 theaded 模式（单向/不可逆操作）
-2.3 [Un]populated Notification（进程退出通知）
-2.3 管理控制器（controlling controllers）        
-2.3.1 启用和禁用
-2.3.2 自顶向下启用（top-down constraint）
-2.3.3 将资源分给 children 时，parent cgroup 内不能有进程（no internal process）
-2.4 Delegation（委派）        
-2…]]></summary>
-        <author>
-            <name>ArthurChiao's Blog</name>
-        </author>
-    </entry>
     <entry>
         <title type="html"><![CDATA[JavaScript逆向调试记 —— defcon threefactooorx writeup]]></title>
         <id>https://www.leavesongs.com/PENETRATION/defcon-29-threefactooorx-writeup.html</id>
@@ -168,108 +126,13 @@ PHP 8 以前，如果我们需要给一个函数的第N个参数]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[译] Linux 异步 I/O 框架 io_uring：基本原理、程序示例与性能压测（2020）]]></title>
-        <id>https://arthurchiao.github.io/blog/intro-to-io-uring-zh/</id>
-        <link href="https://arthurchiao.github.io/blog/intro-to-io-uring-zh/"/>
-        <updated>2021-09-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[译者序
-本文组合翻译了以下两篇文章的干货部分，作为 io_uring 相关的入门参考：
-How io_uring and eBPF Will Revolutionize Programming in Linux, ScyllaDB, 2020
-An Introduction to the io_uring Asynchronous I/O Framework, Oracle, 2020
-io_uring 是 2019 年 Linux 5.1 内核首次引入的高性能
-异步 I/O 框架，能显著加速 I/O 密集型应用的性能。
-但如果你的应用已经在使用 传统 Linux AIO 了，并且使用方式恰当，
-那 io_uring 并不会带来太大的性能提升 —— 根据原文测试（以及我们
-自己的复现），即便打开高级特性，也只有 5%。除非你真的需要这 5% 的额外性能，否则
-切换成 io_uring 代价可能也挺大，因为要
-重写应用来适配 io_uring（或者让依赖的平台或框架去适配，总之需要改代码）。
-既然性能跟传统 AIO 差不多，那为什么还称 io_uring 为革命性技术呢？
-它首先和最大的贡献在于：统一了 Linux 异步 I/O 框架，
-Linux AIO 只支持 direct I/O 模式的存储文件
-（storage file），而且主要用在数据库这一细分领域；
-io_uring 支持存储文件和网络文件（network sockets），也支持更多的异步系统调用
-（accept/openat/stat/...），而非仅限于 read/write 系统调用。
-在设计上是真正的异步 I/O，作为对比，Linux AIO 虽然也
-是异步的，但仍然可能会阻塞，某些情况下的行为也无法预测；
-灵活性和可扩展性非常好，甚至能基于 io_uring 重新所有系统调用，而 Linux AIO…]]></summary>
+        <title type="html"><![CDATA[JDBC Connection URL Attack]]></title>
+        <id>https://su18.org/post/jdbc-connection-url-attack/</id>
+        <link href="https://su18.org/post/jdbc-connection-url-attack/"/>
+        <updated>2021-09-01T23:47:39.000Z</updated>
+        <summary type="html"><![CDATA[你救赎的人 终将成为你的光]]></summary>
         <author>
-            <name>ArthurChiao's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[译] Linux Socket Filtering (LSF, aka BPF)（KernelDoc，2021）]]></title>
-        <id>https://arthurchiao.github.io/blog/linux-socket-filtering-aka-bpf-zh/</id>
-        <link href="https://arthurchiao.github.io/blog/linux-socket-filtering-aka-bpf-zh/"/>
-        <updated>2021-08-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[译者序
-本文翻译自 2021 年 Linux 5.10 内核文档：
-Linux Socket Filtering aka Berkeley Packet Filter (BPF)，
-文档源码见 Documentation/networking/filter.rst。
-Linux Socket Filtering (LSF) 是最初将 BSD 系统上的数据包过滤技术
-BPF（伯克利包过滤器）移植到 Linux 系统时使用的名称，但后来大家还是更多称呼其为
-BPF（aka：as known as）。本文介绍了 Linux BPF 的一些
-底层设计和实现（包括 cBPF 和 eBPF），可作为
-Cilium：BPF 和 XDP 参考指南（2021）
-的很好补充，这两篇可能是目前除了内核源码之外，学习 BPF 的最全/最好参考。
-本文适合有一定 BPF 经验的开发者阅读，不适合初学者。
-由于内核文档更新不是非常及时，文中部分内容已经与 5.10 代码对不上，因此（少量）
-过时内容在翻译时略去了。另外，为文中的大部分 BPF 汇编 / x86_64 汇编加了注释，
-并插入了一些 5.10 代码片段或链接，方便更深入理解。
-由于译者水平有限，本文不免存在遗漏或错误之处。如有疑问，请查阅原文。
-以下是译文。
-译者序
-————————————————————————
-cBPF 相关内容
-————————————————————————
-1 cBPF 引言    
-1.1 LSF (cBPF) 与 BSD BPF
-1.2 ATTACH/DETACH/LOCK 给定过滤器
-1.3 LSF/BPF 使用场景
-1.4 cBPF 经典论文
-2 cBPF 数据结构    
-2.1 struct sock_filter
-2.2 struct sock_fprog
-3 cBPF 示例：libpcap 过滤…]]></summary>
-        <author>
-            <name>ArthurChiao's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[译] LLVM eBPF 汇编编程（2020）]]></title>
-        <id>https://arthurchiao.github.io/blog/ebpf-assembly-with-llvm-zh/</id>
-        <link href="https://arthurchiao.github.io/blog/ebpf-assembly-with-llvm-zh/"/>
-        <updated>2021-08-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[译者序
-本文翻译自 2020 年 Quentin Monnet 的一篇英文博客：
-eBPF assembly with LLVM。
-Quentin Monnet 是 Cilium 开发者之一，此前也在从事网络、eBPF 相关的开发。
-翻译已获得 Quentin Monnet 授权。
-文章介绍了如何直接基于 LLVM eBPF 汇编开发 BPF 程序，虽然给出的
-两个例子极其简单，但其流程对于开发更大的程序也是适用的。为什么不用 C，而用汇编
-这么不友好的编程方式呢？至少有两个特殊场景：
-测试特定的 eBPF 指令流
-对程序的某个特定部分进行深度调优
-原文历时（开头之后拖延）了好几年，因此文中存在一些（文件名等）前后不一致之处，翻译时已经改正
-（交流之后，作者已经修正）；另外，译文基于 clang/llvm 10.0 验证了其中的每个步骤，因此代码、输出等与原文不完全一致。
-由于译者水平有限，本文不免存在遗漏或错误之处。如有疑问，请查阅原文。
-以下是译文。
-译者序
-1 引言    
-1.1 主流开发方式：从 C 代码直接生成 eBPF 字节码
-1.2 特殊场景需求：eBPF 汇编编程更合适
-1.3 几种 eBPF 汇编编程方式
-2 Clang/LLVM 编译 eBPF 基础    
-2.1 将 C 程序编译成 BPF 目标文件
-1.2 查看 ELF 文件中的 eBPF 字节码
-3 方式一：C 生成 eBPF 汇编 + 手工修改汇编    
-3.1 将 C 编译成 eBPF 汇编（clang）
-3.2 手工修改汇编程序
-3.3 将汇编程序 assemble 成 ELF 对象文件（llvm-mc）
-3.4 查看对象文件中的 eBPF 字节码（readelf）
-3.5 以更加人类可读的方式查看 eBPF 字节码（llvm-objdump -d）
-3.6 编译时嵌入调试符号或 C 源…]]></summary>
-        <author>
-            <name>ArthurChiao's Blog</name>
+            <name>素十八</name>
         </author>
     </entry>
 </feed>
