@@ -2,5 +2,5 @@ cacheUrl: https://K1ns0.github.io/RSS/cache.json
 sources:
   - href: https://www.leavesongs.com/feed/
   - href: https://lucumr.pocoo.org/feed.atom
-  - href: http://arthurchiao.art/feed.xml
+  - href: https://su18.org/atom.xml
   - href: http://coding-insecurity.blogspot.com/feeds/posts/default
