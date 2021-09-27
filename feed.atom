@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://K1ns0.github.io/RSS/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-26T00:46:27.962Z</updated>
-    <generator>osmosfeed 1.11.1</generator>
+    <updated>2021-09-27T00:44:13.130Z</updated>
+    <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="https://K1ns0.github.io/RSS/index.html"/>
     <link rel="self" href="https://K1ns0.github.io/RSS/feed.atom"/>
     <entry>
