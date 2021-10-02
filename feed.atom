@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://K1ns0.github.io/RSS/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-10-01T00:48:32.224Z</updated>
+    <updated>2021-10-02T00:43:50.762Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="https://K1ns0.github.io/RSS/index.html"/>
     <link rel="self" href="https://K1ns0.github.io/RSS/feed.atom"/>
@@ -123,16 +123,6 @@ PHP 8 以前，如果我们需要给一个函数的第N个参数]]></summary>
 上一篇文章里，我们认识了java.util.PriorityQueue，它在Java中是一个优先队列，队列中每一个元素有自己的优先级。在反序列化这个对象时，为了保证队列顺序，会进行重排序的操作，而排序就涉及到大小比较，进而执行java.]]></summary>
         <author>
             <name>phithon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JDBC Connection URL Attack]]></title>
-        <id>https://su18.org/post/jdbc-connection-url-attack/</id>
-        <link href="https://su18.org/post/jdbc-connection-url-attack/"/>
-        <updated>2021-09-01T23:47:39.000Z</updated>
-        <summary type="html"><![CDATA[你救赎的人 终将成为你的光]]></summary>
-        <author>
-            <name>素十八</name>
         </author>
     </entry>
 </feed>

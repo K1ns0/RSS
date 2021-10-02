@@ -107,17 +107,7 @@
       "title": "素十八",
       "feedUrl": "https://su18.org/atom.xml",
       "siteUrl": "https://su18.org",
-      "articles": [
-        {
-          "id": "https://su18.org/post/jdbc-connection-url-attack/",
-          "author": null,
-          "description": "你救赎的人 终将成为你的光",
-          "link": "https://su18.org/post/jdbc-connection-url-attack/",
-          "publishedOn": "2021-09-01T23:47:39.000Z",
-          "wordCount": 3450,
-          "title": "JDBC Connection URL Attack"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Coding (In)Security",
