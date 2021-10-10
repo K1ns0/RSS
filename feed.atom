@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://K1ns0.github.io/RSS/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-10-09T00:43:29.784Z</updated>
+    <updated>2021-10-10T00:46:58.162Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="https://K1ns0.github.io/RSS/index.html"/>
     <link rel="self" href="https://K1ns0.github.io/RSS/feed.atom"/>
@@ -123,6 +123,16 @@ Tui Editor的Viewer功能使用方法很简单：
 i]]></summary>
         <author>
             <name>phithon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Java RMI 攻击由浅入深]]></title>
+        <id>https://su18.org/post/rmi-attack/</id>
+        <link href="https://su18.org/post/rmi-attack/"/>
+        <updated>2021-09-30T23:20:16.000Z</updated>
+        <summary type="html"><![CDATA[你救赎的人 终将成为你的光]]></summary>
+        <author>
+            <name>素十八</name>
         </author>
     </entry>
 </feed>
