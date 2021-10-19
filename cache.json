@@ -6,6 +6,15 @@
       "siteUrl": "https://www.leavesongs.com",
       "articles": [
         {
+          "id": "https://www.leavesongs.com/PENETRATION/apache-mod-proxy-ssrf-cve-2021-40438.html",
+          "author": "phithon",
+          "description": "周五晚上开始学习Apache HTTP Server（后文简称为Apache）mod_proxy的SSRF漏洞（CVE-2021-40438），并在星球简单介绍了一下编译、调试Apache服务器的方法，今天继续深入分析一下这个漏洞的成因，以及一些延伸的问题研究。\n我很久不发漏洞分析了，因为不是自己挖的漏洞，我自己的思考其实是不够的，再加上很多出漏洞的软件我都没用过，也更谈不上深入的理解，很容易落俗",
+          "link": "https://www.leavesongs.com/PENETRATION/apache-mod-proxy-ssrf-cve-2021-40438.html",
+          "publishedOn": "2021-10-19T00:49:11.263Z",
+          "wordCount": 776,
+          "title": "Apache mod_proxy SSRF（CVE-2021-40438）的一点分析和延伸"
+        },
+        {
           "id": "https://www.leavesongs.com/PENETRATION/diy-commons-collections6-poc.html",
           "author": "phithon",
           "description": "这是代码审计知识星球中《Java安全漫谈》的第十二篇文章。",
