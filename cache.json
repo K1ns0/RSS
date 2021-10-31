@@ -116,17 +116,7 @@
       "title": "素十八",
       "feedUrl": "https://su18.org/atom.xml",
       "siteUrl": "https://su18.org",
-      "articles": [
-        {
-          "id": "https://su18.org/post/rmi-attack/",
-          "author": null,
-          "description": "你救赎的人 终将成为你的光",
-          "link": "https://su18.org/post/rmi-attack/",
-          "publishedOn": "2021-09-30T23:20:16.000Z",
-          "wordCount": 2214,
-          "title": "Java RMI 攻击由浅入深"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Coding (In)Security",
