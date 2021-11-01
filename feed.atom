@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://K1ns0.github.io/RSS/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-10-31T00:46:34.833Z</updated>
+    <updated>2021-11-01T00:46:51.233Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://K1ns0.github.io/RSS/index.html"/>
     <link rel="self" href="https://K1ns0.github.io/RSS/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[JavaWeb 内存马二周目通关攻略]]></title>
+        <id>https://su18.org/post/memory-shell-2/</id>
+        <link href="https://su18.org/post/memory-shell-2/"/>
+        <updated>2021-10-31T06:52:34.000Z</updated>
+        <summary type="html"><![CDATA[你救赎的人 终将成为你的光]]></summary>
+        <author>
+            <name>素十八</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Apache mod_proxy SSRF（CVE-2021-40438）的一点分析和延伸]]></title>
         <id>https://www.leavesongs.com/PENETRATION/apache-mod-proxy-ssrf-cve-2021-40438.html</id>
