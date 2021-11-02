@@ -6,6 +6,15 @@
       "siteUrl": "https://www.leavesongs.com",
       "articles": [
         {
+          "id": "https://www.leavesongs.com/PENETRATION/docker-php-include-getshell.html",
+          "author": "phithon",
+          "description": "本文首发在跳跳糖社区。\n2018年『代码审计』星球举办的Code-Breaking Puzzles非常成功，后面我就一直想再做一次类似的活动。Code-Breaking属于极其偏向于trick分享的代码审计谜题，所以要求题目具有一定的独创性，最好是能用10行以内的代码片段，描述一个具有实战价值的场景。\n大概在去年疫情在家办公那段时间，有个同学问过我一个问题，他遇到了一个PHP文件包含漏洞，但找",
+          "link": "https://www.leavesongs.com/PENETRATION/docker-php-include-getshell.html",
+          "publishedOn": "2021-11-02T00:48:16.379Z",
+          "wordCount": 728,
+          "title": "Docker PHP裸文件本地包含综述"
+        },
+        {
           "id": "https://www.leavesongs.com/PENETRATION/apache-mod-proxy-ssrf-cve-2021-40438.html",
           "author": "phithon",
           "description": "周五晚上开始学习Apache HTTP Server（后文简称为Apache）mod_proxy的SSRF漏洞（CVE-2021-40438），并在星球简单介绍了一下编译、调试Apache服务器的方法，今天继续深入分析一下这个漏洞的成因，以及一些延伸的问题研究。\n我很久不发漏洞分析了，因为不是自己挖的漏洞，我自己的思考其实是不够的，再加上很多出漏洞的软件我都没用过，也更谈不上深入的理解，很容易落俗",
@@ -144,7 +153,17 @@
       "title": "m0d9's blog",
       "feedUrl": "https://m0d9.me/atom.xml",
       "siteUrl": "http://m0d9.me/atom.xml",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://m0d9.me/2021/11/01/CodeQL-CVE-2021-2471/",
+          "author": null,
+          "description": "<p>pyn3rd师傅的《Make JDBC Attack Brilliant Again》中有一个0day是mysql jdbc xxe，thread3am师傅也早就复现出来了，而且还发现了h2的xxe。膜一个，师傅们都太🐂🍺了。很多师傅们也复现了，再讲也没啥意思了，用CodeQL整点新的吧。</p>\n<ol>\n<li><p>CVE-2021-2471 mysql jdbc xxe在HITB ppt里面，没有讲DOMSource XXE这一部分，原因应该是pyn3rd师傅提漏洞还未公开，没写在ppt里面。所以这个洞有两个东西：</p>\n<p> a. DOMSource XXE, 影响所有版本，官方8.0.27中修复掉了</p>\n<p> b. Fabric XXE, 影响5.x, 在5.1.49中修复</p>\n</li>\n<li><p>CodeQL CWE-611有XXE的检测poc，不过source源不支持mysql。</p>\n</li>\n</ol>\n<h2 id=\"CVE-2021-2471\"><a href=\"#CVE-2021-2471\" class=\"headerlink\" title=\"CVE-2021-2471\"></a>CVE-2021-2471</h2><h3 id=\"DOMSource-XXE\"><a href=\"#DOMSource-XXE\" class=\"headerlink\" title=\"DOMSource XXE\"></a>DOMSource XXE</h3><p>漏洞代码在 com.mysql.cj.jdbc.MysqlSQLXML#getSource</p>",
+          "link": "http://m0d9.me/2021/11/01/CodeQL-CVE-2021-2471/",
+          "publishedOn": "2021-11-01T13:19:00.000Z",
+          "wordCount": 796,
+          "title": "CodeQL with CVE-2021-2471"
+        }
+      ]
     }
   ],
   "cliVersion": "1.11.3"

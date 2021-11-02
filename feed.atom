@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://K1ns0.github.io/RSS/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-11-01T00:46:51.233Z</updated>
+    <updated>2021-11-02T00:48:18.469Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://K1ns0.github.io/RSS/index.html"/>
     <link rel="self" href="https://K1ns0.github.io/RSS/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Docker PHP裸文件本地包含综述]]></title>
+        <id>https://www.leavesongs.com/PENETRATION/docker-php-include-getshell.html</id>
+        <link href="https://www.leavesongs.com/PENETRATION/docker-php-include-getshell.html"/>
+        <updated>2021-11-02T00:48:16.379Z</updated>
+        <summary type="html"><![CDATA[本文首发在跳跳糖社区。
+2018年『代码审计』星球举办的Code-Breaking Puzzles非常成功，后面我就一直想再做一次类似的活动。Code-Breaking属于极其偏向于trick分享的代码审计谜题，所以要求题目具有一定的独创性，最好是能用10行以内的代码片段，描述一个具有实战价值的场景。
+大概在去年疫情在家办公那段时间，有个同学问过我一个问题，他遇到了一个PHP文件包含漏洞，但找]]></summary>
+        <author>
+            <name>phithon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CodeQL with CVE-2021-2471]]></title>
+        <id>http://m0d9.me/2021/11/01/CodeQL-CVE-2021-2471/</id>
+        <link href="http://m0d9.me/2021/11/01/CodeQL-CVE-2021-2471/"/>
+        <updated>2021-11-01T13:19:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>pyn3rd师傅的《Make JDBC Attack Brilliant Again》中有一个0day是mysql jdbc xxe，thread3am师傅也早就复现出来了，而且还发现了h2的xxe。膜一个，师傅们都太🐂🍺了。很多师傅们也复现了，再讲也没啥意思了，用CodeQL整点新的吧。</p>
+<ol>
+<li><p>CVE-2021-2471 mysql jdbc xxe在HITB ppt里面，没有讲DOMSource XXE这一部分，原因应该是pyn3rd师傅提漏洞还未公开，没写在ppt里面。所以这个洞有两个东西：</p>
+<p> a. DOMSource XXE, 影响所有版本，官方8.0.27中修复掉了</p>
+<p> b. Fabric XXE, 影响5.x, 在5.1.49中修复</p>
+</li>
+<li><p>CodeQL CWE-611有XXE的检测poc，不过source源不支持mysql。</p>
+</li>
+</ol>
+<h2 id="CVE-2021-2471"><a href="#CVE-2021-2471" class="headerlink" title="CVE-2021-2471"></a>CVE-2021-2471</h2><h3 id="DOMSource-XXE"><a href="#DOMSource-XXE" class="headerlink" title="DOMSource XXE"></a>DOMSource XXE</h3><p>漏洞代码在 com.mysql.cj.jdbc.MysqlSQLXML#getSource</p>]]></summary>
+        <author>
+            <name>m0d9's blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[JavaWeb 内存马二周目通关攻略]]></title>
         <id>https://su18.org/post/memory-shell-2/</id>
