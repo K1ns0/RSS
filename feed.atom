@@ -2,10 +2,106 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://K1ns0.github.io/RSS/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-11-07T00:46:22.210Z</updated>
+    <updated>2021-11-08T00:45:08.472Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://K1ns0.github.io/RSS/index.html"/>
     <link rel="self" href="https://K1ns0.github.io/RSS/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[JavaScript逆向调试记 —— defcon threefactooorx writeup]]></title>
+        <id>https://www.leavesongs.com/PENETRATION/defcon-29-threefactooorx-writeup.html</id>
+        <link href="https://www.leavesongs.com/PENETRATION/defcon-29-threefactooorx-writeup.html"/>
+        <updated>2021-11-08T00:45:08.445Z</updated>
+        <summary type="html"><![CDATA[defcon 29就这一道Web题目，说实话也没学到啥东西，唯一学到的就是勿钻牛角尖，及时调整策略。此题严格]]></summary>
+        <author>
+            <name>phithon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CommonsBeanutils与无commons-collections的Shiro反序列化利用]]></title>
+        <id>https://www.leavesongs.com/PENETRATION/commons-beanutils-without-commons-collections.html</id>
+        <link href="https://www.leavesongs.com/PENETRATION/commons-beanutils-without-commons-collections.html"/>
+        <updated>2021-11-08T00:45:04.740Z</updated>
+        <summary type="html"><![CDATA[这是代码审计知识星球中Java安全漫谈的第十七篇文章。完整文章列表与相关代码请参考：https://github.com/phith0n/JavaThings
+上一篇文章里，我们认识了java.util.PriorityQueue，它在Java中是一个优先队列，队列中每一个元素有自己的优先级。在反序列化这个对象时，为了保证队列顺序，会进行重排序的操作，而排序就涉及到大小比较，进而执行java.]]></summary>
+        <author>
+            <name>phithon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Django中与时区相关的安全问题]]></title>
+        <id>https://www.leavesongs.com/PYTHON/django-timezone-detail.html</id>
+        <link href="https://www.leavesongs.com/PYTHON/django-timezone-detail.html"/>
+        <updated>2021-11-08T00:45:04.728Z</updated>
+        <summary type="html"><![CDATA[在开发国际化网站的时候，难免会与时区打交道，通用CMS更是如此，毕竟其潜在用户可能是来自于全球各地的。Django在时区这个问题上下了不少功夫，但是很多资深的开发者都有可能尚未完全屡清楚Django中各种时间的实际意义和使用方法，导致写出错误的代码；作为安全研究人员，时区问题也可能和一些安全问题挂钩，比如优惠券的过期时间、订单的下单与取消时间等，如果没有考虑时区问题，有可能将导致一些逻辑漏洞。
+本]]></summary>
+        <author>
+            <name>phithon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BCEL ClassLoader去哪了]]></title>
+        <id>https://www.leavesongs.com/PENETRATION/where-is-bcel-classloader.html</id>
+        <link href="https://www.leavesongs.com/PENETRATION/where-is-bcel-classloader.html"/>
+        <updated>2021-11-08T00:45:04.449Z</updated>
+        <summary type="html"><![CDATA[com.sun.org.apache.bcel.internal.util.ClassLoader是常常在构造漏洞利用POC时用到的类。但是，我前几天在写《Java安全漫谈》的时候，偶然发现我环境中的com.sun.org.apache.bcel.internal.util.ClassLoader类找不到了，本文就带大家来找找BCEL ClassLoader。
+0x01 BCEL从哪里来
+首先，B]]></summary>
+        <author>
+            <name>phithon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2021-21287: 容器与云的碰撞——一次对MinIO的测试]]></title>
+        <id>https://www.leavesongs.com/PENETRATION/the-collision-of-containers-and-the-cloud-pentesting-a-MinIO.html</id>
+        <link href="https://www.leavesongs.com/PENETRATION/the-collision-of-containers-and-the-cloud-pentesting-a-MinIO.html"/>
+        <updated>2021-11-08T00:45:04.442Z</updated>
+        <summary type="html"><![CDATA[事先声明：本次测试过程完全处于本地或授权环境，仅供学习与参考，不存在未授权测试过程。本文提到的漏洞《MinIO未授权SSRF漏洞（CVE-2021-21287）》已经修复，也请读者勿使用该漏洞进行未授权测试，否则作者不承担任何责任
+(English edition)
+随着工作和生活中的一些环境逐渐往云端迁移，对象存储的需求也逐渐多了起来，MinIO就是一款支持部署在私有云的开源对象存储系统。M]]></summary>
+        <author>
+            <name>phithon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一次对 Tui Editor XSS 的挖掘与分析]]></title>
+        <id>https://www.leavesongs.com/PENETRATION/a-tour-of-tui-editor-xss.html</id>
+        <link href="https://www.leavesongs.com/PENETRATION/a-tour-of-tui-editor-xss.html"/>
+        <updated>2021-11-08T00:45:04.432Z</updated>
+        <summary type="html"><![CDATA[TOAST Tui Editor是一款富文本Markdown编辑器，用于给HTML表单提供Markdown和富文本编写支持。最近我们在工作中需要使用到它，相比于其他一些Markdown编辑器，它更新迭代较快，功能也比较强大。另外，它不但提供编辑器功能，也提供了渲染功能（Viewer），也就是说编辑和显示都可以使用Tui Editor搞定。
+Tui Editor的Viewer功能使用方法很简单：
+i]]></summary>
+        <author>
+            <name>phithon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2021-39165: 从一个Laravel SQL注入漏洞开始的Bug Bounty之旅]]></title>
+        <id>https://www.leavesongs.com/PENETRATION/cachet-from-laravel-sqli-to-bug-bounty.html</id>
+        <link href="https://www.leavesongs.com/PENETRATION/cachet-from-laravel-sqli-to-bug-bounty.html"/>
+        <updated>2021-11-08T00:45:04.010Z</updated>
+        <summary type="html"><![CDATA[事先声明：本次测试过程完全处于本地或授权环境，仅供学习与参考，不存在未授权测试过程。本文提到的漏洞《Cachet SQL注入漏洞（CVE-2021-39165）》已经修复，也请读者勿使用该漏洞进行未授权测试，否则作者不承担任何责任
+0x01 故事的起源
+一个百无聊赖的周日晚上，我在知识星球闲逛，发现有一个匿名用户一连向我提出了两个问题：
+
+本来不是很想回答这两个问题，一是感觉比较基础，二是现在]]></summary>
+        <author>
+            <name>phithon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[有安全研究者混入了PHP 8.0开发组！]]></title>
+        <id>https://www.leavesongs.com/PHP/php-8-0-release.html</id>
+        <link href="https://www.leavesongs.com/PHP/php-8-0-release.html"/>
+        <updated>2021-11-08T00:45:03.648Z</updated>
+        <summary type="html"><![CDATA[本文首发在我的『代码审计』公众号，欢迎关注
+经历了近半年的alpha版本测试后，PHP在2020年11月26号正式发布了8.0版本：https://www.php.net/releases/8.0/en.php
+今天我们就来浏览一下PHP 8.0中出现的主要特性，以及它给我们安全研究人员带来的挑战。
+命名参数 Named Arguments
+PHP 8 以前，如果我们需要给一个函数的第N个参数]]></summary>
+        <author>
+            <name>phithon</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Docker PHP裸文件本地包含综述]]></title>
         <id>https://www.leavesongs.com/PENETRATION/docker-php-include-getshell.html</id>
