@@ -101,7 +101,17 @@
       "title": "Armin Ronacher's Thoughts and Writings",
       "feedUrl": "https://lucumr.pocoo.org/feed.atom",
       "siteUrl": "http://lucumr.pocoo.org/",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://lucumr.pocoo.org/2021/11/14/abusing-serde",
+          "author": null,
+          "description": "When programmers point to things they like about Rust they are relatively\nquickly pointing out serde as an example of something\nthat is a pleasure to work with.  Serde is a Serialization and Deserialization framework for Rust.  It's relatively format independent and\nlets you work with JSON, YAML and a range of different formats.\nDespite all of this, there is a lot that can be accomplished with it and\nsome of the use cases I think are quite interesting and worth sharing.\nAbusing Serialization\nOne of the very interesting use cases for serde is to use it as some form\nof reflection framework to expose structs to other “environments” that\ncannot natively support rust structs.  These are situations where as a\ndeveloper you serialize a serializable object just to immediately\ndeserialize it again …",
+          "link": "http://lucumr.pocoo.org/2021/11/14/abusing-serde",
+          "publishedOn": "2021-11-14T00:00:00.000Z",
+          "wordCount": 2190,
+          "title": "Rust Adventures: Abusing Serde"
+        }
+      ]
     },
     {
       "title": "素十八",

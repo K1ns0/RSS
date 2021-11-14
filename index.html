@@ -212,6 +212,39 @@ footer {
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-11-14">2021-11-14</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="http://lucumr.pocoo.org/">Armin Ronacher&#x27;s Thoughts and Writings</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Rust Adventures: Abusing Serde</summary>
+                <a class="article-summary-link article-summary-box-outer" href="http://lucumr.pocoo.org/2021/11/14/abusing-serde">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(7 min)</span>
+                    <span>When programmers point to things they like about Rust they are relatively
+quickly pointing out serde as an example of something
+that is a pleasure to work with.  Serde is a Serialization and Deserialization framework for Rust.  It&#x27;s relatively format independent and
+lets you work with JSON, YAML and a range of different formats.
+Despite all of this, there is a lot that can be accomplished with it and
+some of the use cases I think are quite interesting and worth sharing.
+Abusing Serialization
+One of the very interesting use cases for serde is to use it as some form
+of reflection framework to expose structs to other “environments” that
+cannot natively support rust structs.  These are situations where as a
+developer you serialize a serializable object just to immediately
+deserialize it again …</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-11-08">2021-11-08</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -426,7 +459,7 @@ DOMSource XXE
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-11-13T00:43:41.823Z">2021-11-13T00:43:41.823Z</time>
+    <time id="build-timestamp" datetime="2021-11-14T00:46:32.506Z">2021-11-14T00:46:32.506Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.3</a></span>
   </footer>
   <script src="index.js"></script>
